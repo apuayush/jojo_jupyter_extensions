@@ -1,0 +1,10 @@
+Type: Jupyter Notebook Extension
+Compatibility: 3.x, 4.x, 5.x, 6.x
+Name: Jojo Dark Theme
+Main: main.js
+Link: README.md
+Description: |
+  toggle from dark mode to normal mode and vice versa on click of
+  a button. Helpful for all the dark theme lovers.
+Parameters:
+- none
