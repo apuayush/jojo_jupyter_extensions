@@ -12,7 +12,7 @@ define([
         Jupyter.toolbar.add_buttons_group([
             Jupyter.keyboard_manager.actions.register ({
                 'help': 'toggle to dark mode',
-                'icon' : 'fa-play-circle',
+                'icon' : 'fa-adjust',
                 'handler': toggleDark
             }, 'toggle-dark-mode', 'Dark Mode')
         ])
