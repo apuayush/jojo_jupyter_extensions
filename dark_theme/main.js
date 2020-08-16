@@ -5,7 +5,20 @@ define([
     // add a toggle button for normal to dark theme and vice versa
     let toggleDark = function() {
         // for testing
-        Jupyter.notebook.insert_cell_below();
+        console.log("starting process for dark theme");
+        console.log("------------------D-A-R-K------------------");
+        let filename = "/nbextensions/dark_theme/static/dark.css";
+        let fileRef = document.createElement("link");
+        fileRef.setAttribute("rel", "stylesheet");
+        fileRef.setAttribute("type", "text/css");
+        fileRef.setAttribute("href", "stylesheet");
+
+        console.log("------------------D-A-R-K------------------");
+        if(typeof fileRef != "undefined"){
+            document.getElementsByTagName("head")[0].appendChild(fileRef);
+        }
+        console.log("------------------F-I-N-I-S-H------------------");
+        alert("lets see");
     };
 
     let toggleDarkButton = function() {
